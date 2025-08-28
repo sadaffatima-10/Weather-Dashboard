@@ -1,0 +1,50 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;   /* items ek column me aa jayenge */
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 220px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.search-box button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #005bea;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #003f9e;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
